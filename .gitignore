@@ -1,0 +1,38 @@
+node_modules
+dist
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+database.sql
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build outputs
+.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
