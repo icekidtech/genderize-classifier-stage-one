@@ -1,4 +1,4 @@
-CREATE DATABASE genderize_stage1 OWNER postgres;import axios from 'axios';
+import axios from 'axios';
 
 async function testApis() {
   const name = 'John';
